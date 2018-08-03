@@ -66,5 +66,5 @@ app.post('/send', (req, res) => {
       res.render('contact', {msg:'Email has been sent'});
   });
   });
+app.listen('35.200.211.236',8080, () => console.log('Server started...'));
 
-app.listen(3000, () => console.log('Server started...'));
